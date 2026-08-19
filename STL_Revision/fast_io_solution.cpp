@@ -22,8 +22,10 @@ Historically, C++ tries to maintain compatibility between these two systems.
 
 For example:
 
-cout << "Hello";
-printf("World");
+Hello World
+
+cout << "Hello"; <- T1
+printf("World"); <- T2
 
 C++ wants the order of output to remain meaningful.
 
@@ -79,3 +81,9 @@ we essentially allow:
 Less coordination → less overhead.
 
 */
+
+// cout << "Enter a:";
+// cin >> a;
+
+// +-------------------+
+// 10
